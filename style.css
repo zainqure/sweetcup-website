@@ -1,0 +1,111 @@
+/* General styles */
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f5d3b2;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #af8159;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 50px;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+nav a {
+    color: white;
+    margin: 0 100px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro img {
+    max-width: 700px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 8px 0;
+    padding: 8px;
+    background-color: #f4e1d2;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #af8159;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Menu Page Styles */
+.menu-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.item {
+    text-align: center;
+    max-width: 200px;
+}
+
+.item img {
+    width: 110px;
+    height: 110px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Why Choose Us Section */
+.why-us {
+    background: #fad5b3;
+    border: 2px solid #d2b48c;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 500px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.why-us ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 0;
+}   
+
+.why-us li {
+    margin: 20px 0;
+    font-size: 0.9em;
+}
